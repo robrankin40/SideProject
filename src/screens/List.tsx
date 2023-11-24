@@ -1,5 +1,5 @@
-import React, {useState} from 'react';
-import {View, Text} from 'react-native';
+import React from 'react';
+import {View} from 'react-native';
 import {useGetPokemonListQuery} from '../services/pokemon';
 import {PokemonList} from '../components/PokemonList';
 import {NativeStackScreenProps} from '@react-navigation/native-stack';
