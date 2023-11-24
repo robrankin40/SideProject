@@ -1,5 +1,5 @@
 export interface PokemonList {
-  count: string;
+  count: number;
   next?: string | null;
   previous?: string | null;
   results?: APIResult[];
@@ -74,7 +74,7 @@ export interface Pokemon {
     type: APIResult;
   }[];
   species: APIResult;
-  states: {
+  states?: {
     base_stat: number;
     effort: number;
     stat: APIResult;

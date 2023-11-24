@@ -1,0 +1,691 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pokemon List Renders Correctly for error 1`] = `
+<RCTScrollView
+  ListEmptyComponent={
+    <EmptyState
+      hasError={true}
+      loading={false}
+    />
+  }
+  data={[]}
+  getItem={[Function]}
+  getItemCount={[Function]}
+  keyExtractor={[Function]}
+  onContentSizeChange={[Function]}
+  onLayout={[Function]}
+  onMomentumScrollBegin={[Function]}
+  onMomentumScrollEnd={[Function]}
+  onScroll={[Function]}
+  onScrollBeginDrag={[Function]}
+  onScrollEndDrag={[Function]}
+  removeClippedSubviews={false}
+  renderItem={[Function]}
+  scrollEventThrottle={50}
+  stickyHeaderIndices={[]}
+  viewabilityConfigCallbackPairs={[]}
+>
+  <View>
+    <View>
+      <Text>
+        Unexpected Error
+      </Text>
+    </View>
+  </View>
+</RCTScrollView>
+`;
+
+exports[`Pokemon List Renders Correctly for loading 1`] = `
+<RCTScrollView
+  ListEmptyComponent={
+    <EmptyState
+      hasError={false}
+      loading={true}
+    />
+  }
+  data={[]}
+  getItem={[Function]}
+  getItemCount={[Function]}
+  keyExtractor={[Function]}
+  onContentSizeChange={[Function]}
+  onLayout={[Function]}
+  onMomentumScrollBegin={[Function]}
+  onMomentumScrollEnd={[Function]}
+  onScroll={[Function]}
+  onScrollBeginDrag={[Function]}
+  onScrollEndDrag={[Function]}
+  removeClippedSubviews={false}
+  renderItem={[Function]}
+  scrollEventThrottle={50}
+  stickyHeaderIndices={[]}
+  viewabilityConfigCallbackPairs={[]}
+>
+  <View>
+    <View>
+      <Text>
+        Loading...
+      </Text>
+    </View>
+  </View>
+</RCTScrollView>
+`;
+
+exports[`Pokemon List Renders Correctly with data 1`] = `
+<RCTScrollView
+  ListEmptyComponent={
+    <EmptyState
+      hasError={false}
+      loading={false}
+    />
+  }
+  data={
+    [
+      {
+        "name": "bulbasaur",
+        "url": "https://pokeapi.co/api/v2/pokemon/1/",
+      },
+      {
+        "name": "ivysaur",
+        "url": "https://pokeapi.co/api/v2/pokemon/2/",
+      },
+      {
+        "name": "venusaur",
+        "url": "https://pokeapi.co/api/v2/pokemon/3/",
+      },
+      {
+        "name": "charmander",
+        "url": "https://pokeapi.co/api/v2/pokemon/4/",
+      },
+      {
+        "name": "charmeleon",
+        "url": "https://pokeapi.co/api/v2/pokemon/5/",
+      },
+      {
+        "name": "charizard",
+        "url": "https://pokeapi.co/api/v2/pokemon/6/",
+      },
+      {
+        "name": "squirtle",
+        "url": "https://pokeapi.co/api/v2/pokemon/7/",
+      },
+      {
+        "name": "wartortle",
+        "url": "https://pokeapi.co/api/v2/pokemon/8/",
+      },
+      {
+        "name": "blastoise",
+        "url": "https://pokeapi.co/api/v2/pokemon/9/",
+      },
+      {
+        "name": "caterpie",
+        "url": "https://pokeapi.co/api/v2/pokemon/10/",
+      },
+      {
+        "name": "metapod",
+        "url": "https://pokeapi.co/api/v2/pokemon/11/",
+      },
+      {
+        "name": "butterfree",
+        "url": "https://pokeapi.co/api/v2/pokemon/12/",
+      },
+      {
+        "name": "weedle",
+        "url": "https://pokeapi.co/api/v2/pokemon/13/",
+      },
+      {
+        "name": "kakuna",
+        "url": "https://pokeapi.co/api/v2/pokemon/14/",
+      },
+      {
+        "name": "beedrill",
+        "url": "https://pokeapi.co/api/v2/pokemon/15/",
+      },
+      {
+        "name": "pidgey",
+        "url": "https://pokeapi.co/api/v2/pokemon/16/",
+      },
+      {
+        "name": "pidgeotto",
+        "url": "https://pokeapi.co/api/v2/pokemon/17/",
+      },
+      {
+        "name": "pidgeot",
+        "url": "https://pokeapi.co/api/v2/pokemon/18/",
+      },
+      {
+        "name": "rattata",
+        "url": "https://pokeapi.co/api/v2/pokemon/19/",
+      },
+      {
+        "name": "raticate",
+        "url": "https://pokeapi.co/api/v2/pokemon/20/",
+      },
+    ]
+  }
+  getItem={[Function]}
+  getItemCount={[Function]}
+  keyExtractor={[Function]}
+  onContentSizeChange={[Function]}
+  onLayout={[Function]}
+  onMomentumScrollBegin={[Function]}
+  onMomentumScrollEnd={[Function]}
+  onScroll={[Function]}
+  onScrollBeginDrag={[Function]}
+  onScrollEndDrag={[Function]}
+  removeClippedSubviews={false}
+  renderItem={[Function]}
+  scrollEventThrottle={50}
+  stickyHeaderIndices={[]}
+  viewabilityConfigCallbackPairs={[]}
+>
+  <View>
+    <View
+      onFocusCapture={[Function]}
+      onLayout={[Function]}
+      style={null}
+    >
+      <View
+        accessibilityState={
+          {
+            "busy": undefined,
+            "checked": undefined,
+            "disabled": undefined,
+            "expanded": undefined,
+            "selected": undefined,
+          }
+        }
+        accessibilityValue={
+          {
+            "max": undefined,
+            "min": undefined,
+            "now": undefined,
+            "text": undefined,
+          }
+        }
+        accessible={true}
+        collapsable={false}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          {
+            "borderColor": "black",
+            "borderRadius": 8,
+            "borderWidth": 1,
+            "margin": 16,
+            "opacity": 1,
+            "padding": 16,
+          }
+        }
+        testID="button_bulbasaur"
+      >
+        <Text>
+          bulbasaur
+        </Text>
+      </View>
+    </View>
+    <View
+      onFocusCapture={[Function]}
+      onLayout={[Function]}
+      style={null}
+    >
+      <View
+        accessibilityState={
+          {
+            "busy": undefined,
+            "checked": undefined,
+            "disabled": undefined,
+            "expanded": undefined,
+            "selected": undefined,
+          }
+        }
+        accessibilityValue={
+          {
+            "max": undefined,
+            "min": undefined,
+            "now": undefined,
+            "text": undefined,
+          }
+        }
+        accessible={true}
+        collapsable={false}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          {
+            "borderColor": "black",
+            "borderRadius": 8,
+            "borderWidth": 1,
+            "margin": 16,
+            "opacity": 1,
+            "padding": 16,
+          }
+        }
+        testID="button_ivysaur"
+      >
+        <Text>
+          ivysaur
+        </Text>
+      </View>
+    </View>
+    <View
+      onFocusCapture={[Function]}
+      onLayout={[Function]}
+      style={null}
+    >
+      <View
+        accessibilityState={
+          {
+            "busy": undefined,
+            "checked": undefined,
+            "disabled": undefined,
+            "expanded": undefined,
+            "selected": undefined,
+          }
+        }
+        accessibilityValue={
+          {
+            "max": undefined,
+            "min": undefined,
+            "now": undefined,
+            "text": undefined,
+          }
+        }
+        accessible={true}
+        collapsable={false}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          {
+            "borderColor": "black",
+            "borderRadius": 8,
+            "borderWidth": 1,
+            "margin": 16,
+            "opacity": 1,
+            "padding": 16,
+          }
+        }
+        testID="button_venusaur"
+      >
+        <Text>
+          venusaur
+        </Text>
+      </View>
+    </View>
+    <View
+      onFocusCapture={[Function]}
+      onLayout={[Function]}
+      style={null}
+    >
+      <View
+        accessibilityState={
+          {
+            "busy": undefined,
+            "checked": undefined,
+            "disabled": undefined,
+            "expanded": undefined,
+            "selected": undefined,
+          }
+        }
+        accessibilityValue={
+          {
+            "max": undefined,
+            "min": undefined,
+            "now": undefined,
+            "text": undefined,
+          }
+        }
+        accessible={true}
+        collapsable={false}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          {
+            "borderColor": "black",
+            "borderRadius": 8,
+            "borderWidth": 1,
+            "margin": 16,
+            "opacity": 1,
+            "padding": 16,
+          }
+        }
+        testID="button_charmander"
+      >
+        <Text>
+          charmander
+        </Text>
+      </View>
+    </View>
+    <View
+      onFocusCapture={[Function]}
+      onLayout={[Function]}
+      style={null}
+    >
+      <View
+        accessibilityState={
+          {
+            "busy": undefined,
+            "checked": undefined,
+            "disabled": undefined,
+            "expanded": undefined,
+            "selected": undefined,
+          }
+        }
+        accessibilityValue={
+          {
+            "max": undefined,
+            "min": undefined,
+            "now": undefined,
+            "text": undefined,
+          }
+        }
+        accessible={true}
+        collapsable={false}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          {
+            "borderColor": "black",
+            "borderRadius": 8,
+            "borderWidth": 1,
+            "margin": 16,
+            "opacity": 1,
+            "padding": 16,
+          }
+        }
+        testID="button_charmeleon"
+      >
+        <Text>
+          charmeleon
+        </Text>
+      </View>
+    </View>
+    <View
+      onFocusCapture={[Function]}
+      onLayout={[Function]}
+      style={null}
+    >
+      <View
+        accessibilityState={
+          {
+            "busy": undefined,
+            "checked": undefined,
+            "disabled": undefined,
+            "expanded": undefined,
+            "selected": undefined,
+          }
+        }
+        accessibilityValue={
+          {
+            "max": undefined,
+            "min": undefined,
+            "now": undefined,
+            "text": undefined,
+          }
+        }
+        accessible={true}
+        collapsable={false}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          {
+            "borderColor": "black",
+            "borderRadius": 8,
+            "borderWidth": 1,
+            "margin": 16,
+            "opacity": 1,
+            "padding": 16,
+          }
+        }
+        testID="button_charizard"
+      >
+        <Text>
+          charizard
+        </Text>
+      </View>
+    </View>
+    <View
+      onFocusCapture={[Function]}
+      onLayout={[Function]}
+      style={null}
+    >
+      <View
+        accessibilityState={
+          {
+            "busy": undefined,
+            "checked": undefined,
+            "disabled": undefined,
+            "expanded": undefined,
+            "selected": undefined,
+          }
+        }
+        accessibilityValue={
+          {
+            "max": undefined,
+            "min": undefined,
+            "now": undefined,
+            "text": undefined,
+          }
+        }
+        accessible={true}
+        collapsable={false}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          {
+            "borderColor": "black",
+            "borderRadius": 8,
+            "borderWidth": 1,
+            "margin": 16,
+            "opacity": 1,
+            "padding": 16,
+          }
+        }
+        testID="button_squirtle"
+      >
+        <Text>
+          squirtle
+        </Text>
+      </View>
+    </View>
+    <View
+      onFocusCapture={[Function]}
+      onLayout={[Function]}
+      style={null}
+    >
+      <View
+        accessibilityState={
+          {
+            "busy": undefined,
+            "checked": undefined,
+            "disabled": undefined,
+            "expanded": undefined,
+            "selected": undefined,
+          }
+        }
+        accessibilityValue={
+          {
+            "max": undefined,
+            "min": undefined,
+            "now": undefined,
+            "text": undefined,
+          }
+        }
+        accessible={true}
+        collapsable={false}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          {
+            "borderColor": "black",
+            "borderRadius": 8,
+            "borderWidth": 1,
+            "margin": 16,
+            "opacity": 1,
+            "padding": 16,
+          }
+        }
+        testID="button_wartortle"
+      >
+        <Text>
+          wartortle
+        </Text>
+      </View>
+    </View>
+    <View
+      onFocusCapture={[Function]}
+      onLayout={[Function]}
+      style={null}
+    >
+      <View
+        accessibilityState={
+          {
+            "busy": undefined,
+            "checked": undefined,
+            "disabled": undefined,
+            "expanded": undefined,
+            "selected": undefined,
+          }
+        }
+        accessibilityValue={
+          {
+            "max": undefined,
+            "min": undefined,
+            "now": undefined,
+            "text": undefined,
+          }
+        }
+        accessible={true}
+        collapsable={false}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          {
+            "borderColor": "black",
+            "borderRadius": 8,
+            "borderWidth": 1,
+            "margin": 16,
+            "opacity": 1,
+            "padding": 16,
+          }
+        }
+        testID="button_blastoise"
+      >
+        <Text>
+          blastoise
+        </Text>
+      </View>
+    </View>
+    <View
+      onFocusCapture={[Function]}
+      onLayout={[Function]}
+      style={null}
+    >
+      <View
+        accessibilityState={
+          {
+            "busy": undefined,
+            "checked": undefined,
+            "disabled": undefined,
+            "expanded": undefined,
+            "selected": undefined,
+          }
+        }
+        accessibilityValue={
+          {
+            "max": undefined,
+            "min": undefined,
+            "now": undefined,
+            "text": undefined,
+          }
+        }
+        accessible={true}
+        collapsable={false}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          {
+            "borderColor": "black",
+            "borderRadius": 8,
+            "borderWidth": 1,
+            "margin": 16,
+            "opacity": 1,
+            "padding": 16,
+          }
+        }
+        testID="button_caterpie"
+      >
+        <Text>
+          caterpie
+        </Text>
+      </View>
+    </View>
+    <View
+      style={
+        {
+          "height": 0,
+        }
+      }
+    />
+  </View>
+</RCTScrollView>
+`;

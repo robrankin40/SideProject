@@ -9,7 +9,7 @@ interface PokemonDetailProps {
 export const PokemonDetail: React.FC<PokemonDetailProps> = ({detail}) => {
   return (
     <View style={styles.wrapper}>
-      <Text>{detail.name}</Text>
+      <Text testID={`title_${detail.name}`}>{detail.name}</Text>
       <Text>Base Experience: {detail.base_experience}</Text>
       <Text>Weight: {detail.weight}</Text>
       <Text>Height: {detail.height}</Text>

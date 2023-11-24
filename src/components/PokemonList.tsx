@@ -34,7 +34,8 @@ export const PokemonList: React.FC<PokemonListProps> = ({
   const renderItem = ({item}: {item: APIResult; index: number}) => (
     <TouchableOpacity
       style={styles.itemWrapper}
-      onPress={() => onPressPokemon?.(item.name)}>
+      onPress={() => onPressPokemon?.(item.name)}
+      testID={`button_${item.name}`}>
       <Text>{item.name}</Text>
     </TouchableOpacity>
   );

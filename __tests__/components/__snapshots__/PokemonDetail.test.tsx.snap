@@ -1,0 +1,70 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pokemon Details Renders Correctly 1`] = `
+<View
+  style={
+    {
+      "borderColor": "black",
+      "borderRadius": 8,
+      "borderWidth": 1,
+      "margin": 16,
+      "padding": 16,
+    }
+  }
+>
+  <Text>
+    bulbasaur
+  </Text>
+  <Text>
+    Base Experience: 
+    64
+  </Text>
+  <Text>
+    Weight: 
+    69
+  </Text>
+  <Text>
+    Height: 
+    7
+  </Text>
+  <Text>
+    Abilities:
+     
+    overgrow, chlorophyll
+  </Text>
+  <Text>
+    Forms: 
+    bulbasaur
+  </Text>
+  <Text>
+    Moves: 
+    razor-wind, swords-dance, cut, bind, vine-whip, headbutt, tackle, body-slam, take-down, double-edge, growl, strength, mega-drain, leech-seed, growth, razor-leaf, solar-beam, poison-powder, sleep-powder, petal-dance, string-shot, toxic, rage, mimic, double-team, defense-curl, light-screen, reflect, bide, sludge, skull-bash, amnesia, flash, rest, substitute, snore, curse, protect, sludge-bomb, mud-slap, outrage, giga-drain, endure, charm, false-swipe, swagger, fury-cutter, attract, sleep-talk, return, frustration, safeguard, sweet-scent, synthesis, hidden-power, sunny-day, rock-smash, facade, nature-power, helping-hand, ingrain, knock-off, secret-power, weather-ball, grass-whistle, bullet-seed, magical-leaf, natural-gift, worry-seed, seed-bomb, energy-ball, leaf-storm, power-whip, captivate, grass-knot, venoshock, round, echoed-voice, grass-pledge, work-up, grassy-terrain, confide, grassy-glide
+  </Text>
+  <Image
+    source={
+      {
+        "uri": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png",
+      }
+    }
+    style={
+      {
+        "height": 128,
+        "width": 128,
+      }
+    }
+  />
+  <Image
+    source={
+      {
+        "uri": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/1.png",
+      }
+    }
+    style={
+      {
+        "height": 128,
+        "width": 128,
+      }
+    }
+  />
+</View>
+`;

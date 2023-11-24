@@ -14,7 +14,7 @@ export const pokemonApi = createApi({
       PokemonList,
       {offset?: number; limit?: number}
     >({
-      query: ({offset = 0, limit = 0}) =>
+      query: ({offset = 0, limit = 20}) =>
         `pokemon?offset=${offset}&limit=${limit}`,
     }),
   }),
